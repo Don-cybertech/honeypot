@@ -1,0 +1,78 @@
+{
+  "events": [
+    {
+      "timestamp": "2026-03-25T07:30:03.535698",
+      "service": "FTP",
+      "src_ip": "127.0.0.1",
+      "src_port": 24689,
+      "event": "connect",
+      "data": null
+    },
+    {
+      "timestamp": "2026-03-25T07:30:16.900844",
+      "service": "FTP",
+      "src_ip": "127.0.0.1",
+      "src_port": 24689,
+      "event": "auth_attempt",
+      "data": {
+        "username": "anonimous",
+        "password": "guest"
+      }
+    },
+    {
+      "timestamp": "2026-03-25T07:30:42.473755",
+      "service": "Telnet",
+      "src_ip": "127.0.0.1",
+      "src_port": 24716,
+      "event": "connect",
+      "data": null
+    },
+    {
+      "timestamp": "2026-03-25T07:30:46.947905",
+      "service": "FTP",
+      "src_ip": "127.0.0.1",
+      "src_port": 24689,
+      "event": "disconnect",
+      "data": null
+    },
+    {
+      "timestamp": "2026-03-25T07:30:52.147228",
+      "service": "Telnet",
+      "src_ip": "127.0.0.1",
+      "src_port": 24716,
+      "event": "auth_attempt",
+      "data": {
+        "username": "admin",
+        "password": "1234"
+      }
+    },
+    {
+      "timestamp": "2026-03-25T07:31:52.154950",
+      "service": "Telnet",
+      "src_ip": "127.0.0.1",
+      "src_port": 24716,
+      "event": "disconnect",
+      "data": null
+    }
+  ],
+  "attacker_profiles": {
+    "127.0.0.1": {
+      "connections": 6,
+      "services": [
+        "Telnet",
+        "FTP"
+      ],
+      "credentials": [
+        {
+          "username": "anonimous",
+          "password": "guest"
+        },
+        {
+          "username": "admin",
+          "password": "1234"
+        }
+      ],
+      "commands": []
+    }
+  }
+}
