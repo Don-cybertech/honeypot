@@ -1,4 +1,4 @@
-# 🍯 PyHoneypot
+# 🍯 Honeypot
 
 > A lightweight, multi-service cyber deception tool built in Python — designed to detect, log, and report unauthorized access attempts in real time.
 
@@ -12,7 +12,7 @@
 
 ## 📖 Overview
 
-**PyHoneypot** is a command-line cybersecurity tool that simulates real network services — SSH, FTP, HTTP, and Telnet — as convincing decoys. Any actor that connects to these services is silently profiled and logged, with a structured JSON report automatically generated at the end of each session.
+**Honeypot** is a command-line cybersecurity tool that simulates real network services — SSH, FTP, HTTP, and Telnet — as convincing decoys. Any actor that connects to these services is silently profiled and logged, with a structured JSON report automatically generated at the end of each session.
 
 Unlike real services, these listeners grant no actual access. The attacker interacts with an illusion while every credential attempt, command, and payload they submit is recorded and saved for analysis.
 
@@ -336,26 +336,9 @@ telnet 127.0.0.1 2323
 > - Educational, academic, and portfolio purposes
 > - Deployment on systems and networks you **own** or have **explicit written permission** to monitor
 
-By using this software, you agree that:
-
-- You will **not** deploy this tool on systems or networks you do not own or control
-- You will **not** use any captured data for harassment, retaliation, or illegal activity
-- Compliance with all applicable local, national, and international laws is your **sole responsibility**
-- The author assumes **no liability** for damages or legal consequences arising from misuse
-
 > ⚠️ Deploying a honeypot on infrastructure you do not own may constitute unauthorised interception of communications — a criminal offence in most jurisdictions.
 
 ---
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome.
-
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/smtp-honeypot`
-3. Commit your changes: `git commit -m "feat: add SMTP honeypot module"`
-4. Push to the branch: `git push origin feature/smtp-honeypot`
-5. Open a Pull Request
 
 ---
 
@@ -367,9 +350,10 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ## 👤 Author
 
-**Don Ebilo**
-GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-Part of: [Cybersecurity Portfolio](https://github.com/YOUR_USERNAME/cybersecurity_portfolio)
+**Egwu Donatus Achema**
+GitHub: [@Don-cybeertech](https://github.com/Don-cybertech)
+
+Part of: [Cybersecurity Portfolio](https://github.com/Don-cybertech/cybersecurity_portfolio)
 
 ---
 
