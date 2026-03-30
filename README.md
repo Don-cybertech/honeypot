@@ -16,7 +16,7 @@
 
 Unlike real services, these listeners grant no actual access. The attacker interacts with an illusion while every credential attempt, command, and payload they submit is recorded and saved for analysis.
 
-This project is part of a broader [Cybersecurity Portfolio](https://github.com/YOUR_USERNAME/cybersecurity_portfolio) of hands-on Python security tools.
+This project is part of a broader [Cybersecurity Portfolio](https://github.com/Don-cybertech/cybersecurity_portfolio) of hands-on Python security tools.
 
 ---
 
@@ -155,7 +155,7 @@ pip install -r requirements.txt
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/pyhoneypot.git
+git clone https://github.com/Don-cybertech/pyhoneypot.git
 cd pyhoneypot/05_honeypot
 ```
 
@@ -166,9 +166,6 @@ python -m venv .venv
 
 # Windows
 .venv\Scripts\activate
-
-# macOS / Linux
-source .venv/bin/activate
 ```
 
 **3. Install dependencies**
@@ -351,7 +348,9 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ## 👤 Author
 
 **Egwu Donatus Achema**
-GitHub: [@Don-cybeertech](https://github.com/Don-cybertech)
+GitHub: [@Don-cybertech](https://github.com/Don-cybertech)
+
+LinkedIn: (https://www.linkedin.com/in/egwu-donatus-achema-8a9251378/)
 
 Part of: [Cybersecurity Portfolio](https://github.com/Don-cybertech/cybersecurity_portfolio)
 
